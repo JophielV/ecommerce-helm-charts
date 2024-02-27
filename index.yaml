@@ -22,15 +22,3 @@ entries:
     urls:
     - https://github.com/JophielV/ecommerce-helm-charts/releases/download/ecommerce-ui-0.1.2/ecommerce-ui-0.1.2.tgz
     version: 0.1.2
-  hello-world2:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2024-02-27T10:14:38.682279606Z"
-    description: A Helm chart for Kubernetes
-    digest: 1bac811ec8de5507c5503f1ec100b4ab7580a98f89f2dfc11e7a7839ae808c97
-    name: hello-world2
-    type: application
-    urls:
-    - https://github.com/JophielV/ecommerce-helm-charts/releases/download/hello-world2-0.1.0/hello-world2-0.1.0.tgz
-    version: 0.1.0
-generated: "2024-02-27T10:24:33.097017045Z"
