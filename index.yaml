@@ -1,5 +1,27 @@
 apiVersion: v1
 entries:
+  ecommerce-app:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-02-27T10:24:32.983907454Z"
+    description: A Helm chart for Kubernetes
+    digest: bbd398fed0b460b5c150596805c660e041c6bb9a3b6b00c85023081b07520534
+    name: ecommerce-app
+    type: application
+    urls:
+    - https://github.com/JophielV/ecommerce-helm-charts/releases/download/ecommerce-app-0.1.0/ecommerce-app-0.1.0.tgz
+    version: 0.1.0
+  ecommerce-ui:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-02-27T10:24:33.097009762Z"
+    description: A Helm chart for Kubernetes
+    digest: 22fcf965ca7fc47ecc847f2aff54be6e3c3652bf55ce04aa1e816722684a3866
+    name: ecommerce-ui
+    type: application
+    urls:
+    - https://github.com/JophielV/ecommerce-helm-charts/releases/download/ecommerce-ui-0.1.2/ecommerce-ui-0.1.2.tgz
+    version: 0.1.2
   hello-world2:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -11,4 +33,4 @@ entries:
     urls:
     - https://github.com/JophielV/ecommerce-helm-charts/releases/download/hello-world2-0.1.0/hello-world2-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-27T10:14:38.682286359Z"
+generated: "2024-02-27T10:24:33.097017045Z"
