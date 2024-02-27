@@ -3,12 +3,12 @@ entries:
   ecommerce-ui:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-27T15:38:39.070516153+08:00"
+    created: "2024-02-27T16:00:17.662765816+08:00"
     description: A Helm chart for Kubernetes
-    digest: c912406aef3e64b25ef1b4d25ad9158e35612ab2a4b35d467f7fdc90715d40b1
+    digest: 80b5eec164dc0023653ebfc8849b2356b3330b8865446f066f97e8d6d5da1e48
     name: ecommerce-ui
     type: application
     urls:
     - https://github.com/JophielV/ecommerce-helm-charts.git/ecommerce-ui-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-27T15:38:39.069327504+08:00"
+generated: "2024-02-27T16:00:17.661923781+08:00"
