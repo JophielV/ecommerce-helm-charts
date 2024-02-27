@@ -11,4 +11,15 @@ entries:
     urls:
     - https://github.com/JophielV/ecommerce-helm-charts.git/ecommerce-ui-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-27T16:00:17.661923781+08:00"
+  hello-world:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-02-27T09:26:26.935460365Z"
+    description: A Helm chart for Kubernetes
+    digest: 2060df2bbe7671b4a2e2e5d57e41eed5c4d20dd786a56930cbdc8e97a8dc738f
+    name: hello-world
+    type: application
+    urls:
+    - https://github.com/JophielV/ecommerce-helm-charts/releases/download/hello-world-0.1.0/hello-world-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-02-27T09:26:26.935472698Z"
