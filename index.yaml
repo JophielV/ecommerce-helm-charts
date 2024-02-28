@@ -3,6 +3,16 @@ entries:
   ecommerce-app:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-02-28T11:40:46.388243665Z"
+    description: A Helm chart for Kubernetes
+    digest: f66463d3ef2d203e38cc5f46933047973d86793bc12a9422fd81537ab6f1d32d
+    name: ecommerce-app
+    type: application
+    urls:
+    - https://github.com/JophielV/ecommerce-helm-charts/releases/download/ecommerce-app-0.1.1/ecommerce-app-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-02-27T10:24:32.983907454Z"
     description: A Helm chart for Kubernetes
     digest: bbd398fed0b460b5c150596805c660e041c6bb9a3b6b00c85023081b07520534
@@ -64,4 +74,4 @@ entries:
     urls:
     - https://github.com/JophielV/ecommerce-helm-charts/releases/download/postgresql-14.2.3/postgresql-14.2.3.tgz
     version: 14.2.3
-generated: "2024-02-28T10:38:49.895637047Z"
+generated: "2024-02-28T11:40:46.388251219Z"
