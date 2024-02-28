@@ -106,6 +106,8 @@ volumeMounts: []
 #   mountPath: "/etc/foo"
 #   readOnly: true
 
+containerEnvVars: []
+
 nodeSelector: {}
 
 tolerations: []

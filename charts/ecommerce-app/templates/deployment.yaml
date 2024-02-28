@@ -30,8 +30,10 @@ spec:
       serviceAccountName: {{ include "ecommerce-app.serviceAccountName" . }}
       securityContext:
         {{- toYaml .Values.podSecurityContext | nindent 8 }}
+      {{- with .Values.initContainers }}
       initContainers:
-        {{- include "common.tplvalues.render" ( dict "value" .Values.primary.initContainers "context" $ ) | nindent 8 }}
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
       containers:
         - name: {{ .Chart.Name }}
           securityContext:
@@ -50,6 +52,10 @@ spec:
             {{- toYaml .Values.resources | nindent 12 }}
           {{- with .Values.volumeMounts }}
           volumeMounts:
+            {{- toYaml . | nindent 12 }}
+          {{- end }}
+          {{- with .Values.containerEnvVars }}
+          env:
             {{- toYaml . | nindent 12 }}
           {{- end }}
       {{- with .Values.volumes }}
