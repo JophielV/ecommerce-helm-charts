@@ -94,6 +94,12 @@ volumes: []
 #     secretName: mysecret
 #     optional: false
 
+## initContainers:
+initContainers: []
+##   - name: do-something
+##     image: busybox
+##     command: ['do', 'something']
+
 # Additional volumeMounts on the output Deployment definition.
 volumeMounts: []
 # - name: foo
